@@ -163,12 +163,7 @@ back to this), and add methods for `up` and `down`.
 
 ```ruby
 class CreateDogs < ActiveRecord::Migration[5.2]
-  def up
-  end
-
-  def down
-  end
-end
+ 
 ```
 
 **Important:** When we create migrations with ActiveRecord, we must specify the
